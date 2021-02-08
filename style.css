@@ -7,7 +7,6 @@
   position: absolute;
   width: 400px;
   height: 300px;
-  border: 2px solid black;
 }
 
 .block-one {
@@ -35,8 +34,10 @@
   display: none;
 }
 
-.flag.flag-hungary {
+.flag-hungary {
   position: static;
+  width: 400px;
+  height: 300px;
 }
 
 .block-four {
@@ -56,4 +57,40 @@
   color: green;
   width: 400px;
   height: 100px;
+}
+
+.second-flag {
+  margin-top: 100px;
+  position: statis;
+}
+
+.column-one {
+  background-color: blue;
+  width: 133px;
+  height: 300px;
+  display: inline-block;
+}
+
+.column-two {
+  background-color: while;
+  width: 133px;
+  height: 300px;
+  display: inline-block;
+}
+
+.column-trhee {
+  background-color: red;
+  width: 133px;
+  height: 300px;
+  display: inline-block;
+}
+
+.flag-france:hover .column-one {
+  background-color: green;
+}
+.flag-france:hover .column-two {
+  background-color: white;
+}
+.flag-france:hover .column-trhee {
+  background-color: yellow;
 }
