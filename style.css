@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flag-germany {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.block-one {
+  background-color: black;
+  color: black;
+  width: 400px;
+  height: 100px;
+}
+
+.block-two {
+  background-color: red;
+  color: red;
+  width: 400px;
+  height: 100px;
+}
+
+.block-trhee {
+  background-color: yellow;
+  color: yellow;
+  width: 400px;
+  height: 100px;
+}
+
+.flag-germany:hover {
+  display: none;
+}
+
+.flag.flag-hungary {
+  position: static;
+}
+
+.block-four {
+  background-color: red;
+  color: red;
+  width: 400px;
+  height: 100px;
+}
+.block-five {
+  background-color: white;
+  color: white;
+  width: 400px;
+  height: 100px;
+}
+.block-six {
+  background-color: green;
+  color: green;
+  width: 400px;
+  height: 100px;
+}
